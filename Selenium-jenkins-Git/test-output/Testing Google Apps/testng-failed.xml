@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing Google Apps]">
+  <test name="FreeCRM Sanity Test(failed)">
+    <classes>
+      <class name="com.crm.qa.tests.ContactsPageTest">
+        <methods>
+          <include name="verifyContactName"/>
+          <include name="verifyPageName"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.tests.ContactsPageTest -->
+    </classes>
+  </test> <!-- FreeCRM Sanity Test(failed) -->
+</suite> <!-- Failed suite [Testing Google Apps] -->
